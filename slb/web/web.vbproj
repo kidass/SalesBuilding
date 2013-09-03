@@ -1,0 +1,2251 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32D3CD12-801F-4A36-AF5D-9BAA3C28A809}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Josco.JSOA.web</AssemblyName>
+    <AssemblyOriginatorKeyFile>gzcjxyhc.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Flow</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41998,42004,42024,42025,42026,42029,42030,42031,42099,42104,42105,42106,42107,42108,42109</NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41998,42004,42024,42025,42026,42029,42030,42031,42099,42104,42105,42106,42107,42108,42109</NoWarn>
+    <DebugType>none</DebugType>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentArt.Web.UI">
+      <Name>ComponentArt.Web.UI</Name>
+      <HintPath>bin\ComponentArt.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="GemBox.ExcelLite">
+      <Name>GemBox.ExcelLite</Name>
+      <HintPath>bin\GemBox.ExcelLite.dll</HintPath>
+    </Reference>
+    <Reference Include="Josco.JsKernal.BusinessFacade, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL" />
+    <Reference Include="Josco.JsKernal.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL" />
+    <Reference Include="Josco.JsKernal.SystemFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL" />
+    <Reference Include="Josco.JsKernal.web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL" />
+    <Reference Include="Josco.JSOA.BusinessFacade, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7f1155316a506a74, processorArchitecture=MSIL" />
+    <Reference Include="Josco.JSOA.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7f1155316a506a74, processorArchitecture=MSIL" />
+    <Reference Include="Josco.JSOA.DataAccess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7f1155316a506a74, processorArchitecture=MSIL" />
+    <Reference Include="Josco.Web.PopMessage">
+      <Name>Josco.Web.PopMessage</Name>
+      <HintPath>bin\Josco.Web.PopMessage.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.UI.WebControls">
+      <Name>Microsoft.Web.UI.WebControls</Name>
+      <HintPath>bin\Microsoft.Web.UI.WebControls.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\border-radius.css" />
+    <Content Include="css\gold\brushed-steel.jpg" />
+    <Content Include="css\gold\coolbg.png" />
+    <Content Include="css\gold\gold.css" />
+    <Content Include="css\gold\gold.jpg" />
+    <Content Include="css\img\cool-bg-hard-inv.png" />
+    <Content Include="css\img\cool-bg-hard.png" />
+    <Content Include="css\img\cool-bg-inv.png" />
+    <Content Include="css\img\cool-bg.png" />
+    <Content Include="css\img\drop-down.gif" />
+    <Content Include="css\img\drop-up.gif" />
+    <Content Include="css\img\nav-left-x2.gif" />
+    <Content Include="css\img\nav-left.gif" />
+    <Content Include="css\img\nav-right-x2.gif" />
+    <Content Include="css\img\nav-right.gif" />
+    <Content Include="css\img\time-down.png" />
+    <Content Include="css\img\time-up.png" />
+    <Content Include="css\jscal2.css" />
+    <Content Include="css\matrix\matrix.css" />
+    <Content Include="css\matrix\nav-left-x2.gif" />
+    <Content Include="css\matrix\nav-left.gif" />
+    <Content Include="css\matrix\nav-right-x2.gif" />
+    <Content Include="css\matrix\nav-right.gif" />
+    <Content Include="css\reduce-spacing.css" />
+    <Content Include="css\shadow-b.png" />
+    <Content Include="css\steel\brushed-steel.jpg" />
+    <Content Include="css\steel\brushed-steel.png" />
+    <Content Include="css\steel\brushed-steel1.jpg" />
+    <Content Include="css\steel\coolbg.png" />
+    <Content Include="css\steel\steel.css" />
+    <Content Include="css\steel\steel.jpg" />
+    <Content Include="css\StylePerson.css" />
+    <Content Include="css\win2k\win2k.css" />
+    <Content Include="default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="htmledit\popups\about.html" />
+    <Content Include="htmledit\popups\blank.html" />
+    <Content Include="htmledit\popups\custom2.html" />
+    <Content Include="htmledit\popups\editor_help.html" />
+    <Content Include="htmledit\popups\fullscreen.html" />
+    <Content Include="htmledit\popups\insert_image.html" />
+    <Content Include="htmledit\popups\insert_table.html" />
+    <Content Include="htmledit\popups\select_color.html" />
+    <Content Include="mnuStyle.css" />
+    <Content Include="mnuStyle01.css" />
+    <Content Include="navData.xml" />
+    <Content Include="navStyle.css" />
+    <Content Include="scripts\Calendar.js" />
+    <Content Include="scripts\htmledit.js" />
+    <Content Include="scripts\js\jscal2.js" />
+    <Content Include="scripts\js\lang\ca.js" />
+    <Content Include="scripts\js\lang\cn.js" />
+    <Content Include="scripts\js\lang\cz.js" />
+    <Content Include="scripts\js\lang\de.js" />
+    <Content Include="scripts\js\lang\en.js" />
+    <Content Include="scripts\js\lang\es.js" />
+    <Content Include="scripts\js\lang\fr.js" />
+    <Content Include="scripts\js\lang\it.js" />
+    <Content Include="scripts\js\lang\jp.js" />
+    <Content Include="scripts\js\lang\nl.js" />
+    <Content Include="scripts\js\lang\pl.js" />
+    <Content Include="scripts\js\lang\pt.js" />
+    <Content Include="scripts\js\lang\ro.js" />
+    <Content Include="scripts\js\lang\ru.js" />
+    <Content Include="scripts\js\lang\sv.js" />
+    <Content Include="scripts\libcookie.js" />
+    <Content Include="scripts\libdate.js" />
+    <Content Include="scripts\libstring.js" />
+    <Content Include="scripts\libword.js" />
+    <Content Include="scripts\showdateweek.js" />
+    <Content Include="scripts\transkey.js" />
+    <Content Include="secure\estate\caiwu\estate_cw_piaoju_fafang.aspx" />
+    <Content Include="secure\estate\caiwu\estate_cw_piaoju_jiankong.aspx" />
+    <Content Include="secure\estate\caiwu\estate_cw_piaoju_shiyong.aspx" />
+    <Content Include="secure\estate\caiwu\estate_cw_sssf.aspx" />
+    <Content Include="secure\estate\caiwu\estate_cw_sssf_jh.aspx" />
+    <Content Include="secure\estate\caiwu\estate_cw_sssf_jz.aspx" />
+    <Content Include="secure\estate\caiwu\estate_cw_sssf_sh.aspx" />
+    <Content Include="secure\estate\caiwu\estate_cw_sztz.aspx" />
+    <Content Include="secure\estate\caiwu\estate_cw_xz_piaoju.aspx" />
+    <Content Include="secure\estate\caiwu\estate_cw_ysyf.aspx" />
+    <Content Include="secure\estate\common\estate_gg_baxm.aspx" />
+    <Content Include="secure\estate\common\estate_gg_quyuhuafen.aspx" />
+    <Content Include="secure\estate\common\estate_gg_shuifeimulu.aspx" />
+    <Content Include="secure\estate\common\estate_gg_wuyejiange.aspx" />
+    <Content Include="secure\estate\common\estate_gg_wuyexingzhi.aspx" />
+    <Content Include="secure\estate\common\estate_gg_yingshouyingfumoban.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esdlqyqkb.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esjaqkb_gfh.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esjsqkb_gfh.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esjsqkb_gyd.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esjsqkb_gyw.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esjyqd_gy.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esjyqd_gybf.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esjyqd_gy_x2.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esjyqd_sy.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esjyqd_sy_x2.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esnddb.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esphbbmyj.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esphbqyyj.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esphbryyj.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_eswcqkb_gfh.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esyjfpb.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esyjfpb_x2.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja1_all.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja1_ys.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja_all.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja_ws.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esywdlqd_wc.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esywdlqd_yjwj.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_esywdlqd_yjwjw.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_fyxxb.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_kyxxb.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_bb_yswsyjb.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetongmm_info.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetongmm_list.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetongmm_qry.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetongqt_info.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetongqt_list.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetongqt_qry.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetongzl_info.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetongzl_list.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetongzl_qry.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_bl.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_fpbl.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_jss_bjyj.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_jss_info.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_jss_list.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_jss_sh.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_list.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_qzbj.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_sh.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_wc.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_hetong_zksh.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_jyndjh.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_jyndjh_info.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_qrsmm_info.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_qrsmm_list.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_qrsmm_wuye.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_qrsqt_info.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_qrsqt_list.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_qrsqt_wuye.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_qrszl_info.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_qrszl_list.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_qrszl_wuye.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_xz_htxx.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_xz_jyxx.aspx" />
+    <Content Include="secure\estate\ershou\estate_es_yjjt.aspx" />
+    <Content Include="secure\estate\nrenshi\estate_rs_jgxz.aspx" />
+    <Content Include="secure\estate\nrenshi\estate_rs_lztz.aspx" />
+    <Content Include="secure\estate\nrenshi\estate_rs_lztz_info.aspx" />
+    <Content Include="secure\estate\nrenshi\estate_rs_nbtz.aspx" />
+    <Content Include="secure\estate\nrenshi\estate_rs_nbtz_info.aspx" />
+    <Content Include="secure\estate\nrenshi\estate_rs_ruzhi.aspx" />
+    <Content Include="secure\estate\nrenshi\estate_rs_ruzhi_info.aspx" />
+    <Content Include="secure\estate\nrenshi\estate_rs_shixisheng.aspx" />
+    <Content Include="secure\estate\nrenshi\estate_rs_shixisheng_info.aspx" />
+    <Content Include="secure\estate\nrenshi\estate_rs_zpqd.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x4.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_bb_esldhtjmqxb.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_bb_esldjjbb.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_bb_esldjnbb.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_bb_esrlzyxxhzb.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_bb_esryzjydb.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_bb_essyzgkh.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_bb_eszszgkh.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_bb_kh_gl.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_bb_kh_jy.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_biandongyuanyin.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_grll_info.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_grll_main.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_jishuzhicheng.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_kaohebiaozhun.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_kaohebiaozhun_x2.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_luyong_info.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_luyong_main.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_add.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_add_mn.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_add_x2.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_bdls.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_bdls_x2.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_del.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_del_mn.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_del_x2.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_list.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy_mn.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy_x2.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_mn.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_rela.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_renyuanjiagou_x2.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_rskp_info.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_rskp_ldht.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_rskp_main.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_rskp_pxjl.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_rskp_ydjl.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_xuelihuafen.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_xueweihuafen.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_xz_team.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x2.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x3.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_zhengzhimianmao.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_zhigongshuxing.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_zhijidingyi.aspx" />
+    <Content Include="secure\estate\renshi\estate_rs_zhiyezige.aspx" />
+    <Content Include="secure\flow_rs\flow_bjyj.aspx" />
+    <Content Include="secure\flow_rs\flow_bycl.aspx" />
+    <Content Include="secure\flow_rs\flow_byqk.aspx" />
+    <Content Include="secure\flow_rs\flow_ckcbqk.aspx" />
+    <Content Include="secure\flow_rs\flow_ckdbqk.aspx" />
+    <Content Include="secure\flow_rs\flow_cuiban.aspx" />
+    <Content Include="secure\flow_rs\flow_czrz.aspx" />
+    <Content Include="secure\flow_rs\flow_duban.aspx" />
+    <Content Include="secure\flow_rs\flow_dubanjg.aspx" />
+    <Content Include="secure\flow_rs\flow_editword.aspx" />
+    <Content Include="secure\flow_rs\flow_editword.js" />
+    <Content Include="secure\flow_rs\flow_editword_save.aspx" />
+    <Content Include="secure\flow_rs\flow_fujian.aspx" />
+    <Content Include="secure\flow_rs\flow_fujian_info.aspx" />
+    <Content Include="secure\flow_rs\flow_fujian_info.js" />
+    <Content Include="secure\flow_rs\flow_importqp.aspx" />
+    <Content Include="secure\flow_rs\flow_importzs.aspx" />
+    <Content Include="secure\flow_rs\flow_lzqk.aspx" />
+    <Content Include="secure\flow_rs\flow_receive.aspx" />
+    <Content Include="secure\flow_rs\flow_send.aspx" />
+    <Content Include="secure\flow_rs\flow_shouhui.aspx" />
+    <Content Include="secure\flow_rs\flow_spyj.aspx" />
+    <Content Include="secure\flow_rs\flow_spyjtx.aspx" />
+    <Content Include="secure\flow_rs\flow_tuihui.aspx" />
+    <Content Include="secure\flow_rs\flow_xgwj.aspx" />
+    <Content Include="secure\flow_rs\flow_xgwjfj_info.aspx" />
+    <Content Include="secure\flow_rs\flow_xgwjfj_info.js" />
+    <Content Include="secure\flow_rs\flow_xgwjlj_add.aspx" />
+    <Content Include="secure\gzflow\gzsp_admin_bz.aspx" />
+    <Content Include="secure\gzflow\gzsp_admin_jjxx.aspx" />
+    <Content Include="secure\gzflow\gzsp_admin_spxx.aspx" />
+    <Content Include="secure\gzflow\gzsp_flow.aspx" />
+    <Content Include="secure\gzflow\gzsp_lzList.aspx" />
+    <Content Include="secure\gzflow\gzsp_nbtzList.aspx" />
+    <Content Include="secure\gzflow\gzsp_rzryList.aspx" />
+    <Content Include="secure\gzflow\gzsp_sxsList.aspx" />
+    <Content Include="secure\kqgl\kqgl_bxj.aspx" />
+    <Content Include="secure\kqgl\kqgl_kqjl.aspx" />
+    <Content Include="secure\kqgl\kqgl_kqjl_bgs.aspx" />
+    <Content Include="secure\kqgl\kqgl_kqlx.aspx" />
+    <Content Include="secure\kqgl\kqgl_nxj.aspx" />
+    <Content Include="secure\kqgl\kqgl_qjd.aspx" />
+    <Content Include="secure\kqgl\kqgl_qjd_info.aspx" />
+    <Content Include="secure\kqgl\kqgl_yxj.aspx" />
+    <Content Include="secure\kqgl\kqgl_yxj_zj.aspx" />
+    <Content Include="secure\kqgl\kqjl_print.aspx" />
+    <Content Include="secure\ryxz\dwxz_bmmc.aspx" />
+    <Content Include="secure\ryxz\dwxz_dwmc.aspx" />
+    <Content Include="secure\ryxz\ryxz_zzry.aspx" />
+    <Content Include="secure\staffmanager\staff_information.aspx" />
+    <Content Include="secure\staffmanager\staff_information_role.aspx" />
+    <Content Include="secure\staffmanager\staff_manager.aspx" />
+    <Content Include="secure\Web.config" />
+    <Content Include="StyleGW.css" />
+    <Content Include="stylePerson.css" />
+    <Content Include="styles.css" />
+    <Content Include="styles01.css" />
+    <Content Include="stylesGZL.css" />
+    <Content Include="stylesw.css" />
+    <Content Include="Web.config" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_piaoju_fafang.aspx.designer.vb">
+      <DependentUpon>estate_cw_piaoju_fafang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_piaoju_fafang.aspx.vb">
+      <DependentUpon>estate_cw_piaoju_fafang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_piaoju_jiankong.aspx.designer.vb">
+      <DependentUpon>estate_cw_piaoju_jiankong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_piaoju_jiankong.aspx.vb">
+      <DependentUpon>estate_cw_piaoju_jiankong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_piaoju_shiyong.aspx.designer.vb">
+      <DependentUpon>estate_cw_piaoju_shiyong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_piaoju_shiyong.aspx.vb">
+      <DependentUpon>estate_cw_piaoju_shiyong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_sssf.aspx.designer.vb">
+      <DependentUpon>estate_cw_sssf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_sssf.aspx.vb">
+      <DependentUpon>estate_cw_sssf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_sssf_jh.aspx.designer.vb">
+      <DependentUpon>estate_cw_sssf_jh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_sssf_jh.aspx.vb">
+      <DependentUpon>estate_cw_sssf_jh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_sssf_jz.aspx.designer.vb">
+      <DependentUpon>estate_cw_sssf_jz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_sssf_jz.aspx.vb">
+      <DependentUpon>estate_cw_sssf_jz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_sssf_sh.aspx.designer.vb">
+      <DependentUpon>estate_cw_sssf_sh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_sssf_sh.aspx.vb">
+      <DependentUpon>estate_cw_sssf_sh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_sztz.aspx.designer.vb">
+      <DependentUpon>estate_cw_sztz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_sztz.aspx.vb">
+      <DependentUpon>estate_cw_sztz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_xz_piaoju.aspx.designer.vb">
+      <DependentUpon>estate_cw_xz_piaoju.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_xz_piaoju.aspx.vb">
+      <DependentUpon>estate_cw_xz_piaoju.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_ysyf.aspx.designer.vb">
+      <DependentUpon>estate_cw_ysyf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\caiwu\estate_cw_ysyf.aspx.vb">
+      <DependentUpon>estate_cw_ysyf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_baxm.aspx.designer.vb">
+      <DependentUpon>estate_gg_baxm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_baxm.aspx.vb">
+      <DependentUpon>estate_gg_baxm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_quyuhuafen.aspx.designer.vb">
+      <DependentUpon>estate_gg_quyuhuafen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_quyuhuafen.aspx.vb">
+      <DependentUpon>estate_gg_quyuhuafen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_shuifeimulu.aspx.designer.vb">
+      <DependentUpon>estate_gg_shuifeimulu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_shuifeimulu.aspx.vb">
+      <DependentUpon>estate_gg_shuifeimulu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_wuyejiange.aspx.designer.vb">
+      <DependentUpon>estate_gg_wuyejiange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_wuyejiange.aspx.vb">
+      <DependentUpon>estate_gg_wuyejiange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_wuyexingzhi.aspx.designer.vb">
+      <DependentUpon>estate_gg_wuyexingzhi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_wuyexingzhi.aspx.vb">
+      <DependentUpon>estate_gg_wuyexingzhi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_yingshouyingfumoban.aspx.designer.vb">
+      <DependentUpon>estate_gg_yingshouyingfumoban.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\common\estate_gg_yingshouyingfumoban.aspx.vb">
+      <DependentUpon>estate_gg_yingshouyingfumoban.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esdlqyqkb.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esdlqyqkb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esdlqyqkb.aspx.vb">
+      <DependentUpon>estate_es_bb_esdlqyqkb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjaqkb_gfh.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esjaqkb_gfh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjaqkb_gfh.aspx.vb">
+      <DependentUpon>estate_es_bb_esjaqkb_gfh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjsqkb_gfh.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esjsqkb_gfh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjsqkb_gfh.aspx.vb">
+      <DependentUpon>estate_es_bb_esjsqkb_gfh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjsqkb_gyd.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esjsqkb_gyd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjsqkb_gyd.aspx.vb">
+      <DependentUpon>estate_es_bb_esjsqkb_gyd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjsqkb_gyw.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esjsqkb_gyw.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjsqkb_gyw.aspx.vb">
+      <DependentUpon>estate_es_bb_esjsqkb_gyw.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjyqd_gy.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esjyqd_gy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjyqd_gy.aspx.vb">
+      <DependentUpon>estate_es_bb_esjyqd_gy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjyqd_gybf.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esjyqd_gybf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjyqd_gybf.aspx.vb">
+      <DependentUpon>estate_es_bb_esjyqd_gybf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjyqd_gy_x2.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esjyqd_gy_x2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjyqd_gy_x2.aspx.vb">
+      <DependentUpon>estate_es_bb_esjyqd_gy_x2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjyqd_sy.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esjyqd_sy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjyqd_sy.aspx.vb">
+      <DependentUpon>estate_es_bb_esjyqd_sy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjyqd_sy_x2.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esjyqd_sy_x2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esjyqd_sy_x2.aspx.vb">
+      <DependentUpon>estate_es_bb_esjyqd_sy_x2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esnddb.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esnddb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esnddb.aspx.vb">
+      <DependentUpon>estate_es_bb_esnddb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esphbbmyj.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esphbbmyj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esphbbmyj.aspx.vb">
+      <DependentUpon>estate_es_bb_esphbbmyj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esphbqyyj.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esphbqyyj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esphbqyyj.aspx.vb">
+      <DependentUpon>estate_es_bb_esphbqyyj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esphbryyj.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esphbryyj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esphbryyj.aspx.vb">
+      <DependentUpon>estate_es_bb_esphbryyj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_eswcqkb_gfh.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_eswcqkb_gfh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_eswcqkb_gfh.aspx.vb">
+      <DependentUpon>estate_es_bb_eswcqkb_gfh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esyjfpb.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esyjfpb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esyjfpb.aspx.vb">
+      <DependentUpon>estate_es_bb_esyjfpb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esyjfpb_x2.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esyjfpb_x2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esyjfpb_x2.aspx.vb">
+      <DependentUpon>estate_es_bb_esyjfpb_x2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_ja.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja.aspx.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_ja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja1_all.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_ja1_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja1_all.aspx.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_ja1_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja1_ys.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_ja1_ys.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja1_ys.aspx.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_ja1_ys.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja_all.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_ja_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja_all.aspx.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_ja_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja_ws.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_ja_ws.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja_ws.aspx.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_ja_ws.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_wc.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_wc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_wc.aspx.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_wc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_yjwj.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_yjwj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_yjwj.aspx.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_yjwj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_yjwjw.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_yjwjw.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_esywdlqd_yjwjw.aspx.vb">
+      <DependentUpon>estate_es_bb_esywdlqd_yjwjw.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_fyxxb.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_fyxxb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_fyxxb.aspx.vb">
+      <DependentUpon>estate_es_bb_fyxxb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_kyxxb.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_kyxxb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_kyxxb.aspx.vb">
+      <DependentUpon>estate_es_bb_kyxxb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_yswsyjb.aspx.designer.vb">
+      <DependentUpon>estate_es_bb_yswsyjb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_bb_yswsyjb.aspx.vb">
+      <DependentUpon>estate_es_bb_yswsyjb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongmm_info.aspx.designer.vb">
+      <DependentUpon>estate_es_hetongmm_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongmm_info.aspx.vb">
+      <DependentUpon>estate_es_hetongmm_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongmm_list.aspx.designer.vb">
+      <DependentUpon>estate_es_hetongmm_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongmm_list.aspx.vb">
+      <DependentUpon>estate_es_hetongmm_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongmm_qry.aspx.designer.vb">
+      <DependentUpon>estate_es_hetongmm_qry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongmm_qry.aspx.vb">
+      <DependentUpon>estate_es_hetongmm_qry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongqt_info.aspx.designer.vb">
+      <DependentUpon>estate_es_hetongqt_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongqt_info.aspx.vb">
+      <DependentUpon>estate_es_hetongqt_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongqt_list.aspx.designer.vb">
+      <DependentUpon>estate_es_hetongqt_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongqt_list.aspx.vb">
+      <DependentUpon>estate_es_hetongqt_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongqt_qry.aspx.designer.vb">
+      <DependentUpon>estate_es_hetongqt_qry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongqt_qry.aspx.vb">
+      <DependentUpon>estate_es_hetongqt_qry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongzl_info.aspx.designer.vb">
+      <DependentUpon>estate_es_hetongzl_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongzl_info.aspx.vb">
+      <DependentUpon>estate_es_hetongzl_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongzl_list.aspx.designer.vb">
+      <DependentUpon>estate_es_hetongzl_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongzl_list.aspx.vb">
+      <DependentUpon>estate_es_hetongzl_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongzl_qry.aspx.designer.vb">
+      <DependentUpon>estate_es_hetongzl_qry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetongzl_qry.aspx.vb">
+      <DependentUpon>estate_es_hetongzl_qry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_bl.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_bl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_bl.aspx.vb">
+      <DependentUpon>estate_es_hetong_bl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_fpbl.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_fpbl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_fpbl.aspx.vb">
+      <DependentUpon>estate_es_hetong_fpbl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_jss_bjyj.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_jss_bjyj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_jss_bjyj.aspx.vb">
+      <DependentUpon>estate_es_hetong_jss_bjyj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_jss_info.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_jss_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_jss_info.aspx.vb">
+      <DependentUpon>estate_es_hetong_jss_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_jss_list.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_jss_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_jss_list.aspx.vb">
+      <DependentUpon>estate_es_hetong_jss_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_jss_sh.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_jss_sh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_jss_sh.aspx.vb">
+      <DependentUpon>estate_es_hetong_jss_sh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_list.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_list.aspx.vb">
+      <DependentUpon>estate_es_hetong_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_qzbj.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_qzbj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_qzbj.aspx.vb">
+      <DependentUpon>estate_es_hetong_qzbj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_sh.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_sh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_sh.aspx.vb">
+      <DependentUpon>estate_es_hetong_sh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_wc.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_wc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_wc.aspx.vb">
+      <DependentUpon>estate_es_hetong_wc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_zksh.aspx.designer.vb">
+      <DependentUpon>estate_es_hetong_zksh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_hetong_zksh.aspx.vb">
+      <DependentUpon>estate_es_hetong_zksh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_jyndjh.aspx.designer.vb">
+      <DependentUpon>estate_es_jyndjh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_jyndjh.aspx.vb">
+      <DependentUpon>estate_es_jyndjh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_jyndjh_info.aspx.designer.vb">
+      <DependentUpon>estate_es_jyndjh_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_jyndjh_info.aspx.vb">
+      <DependentUpon>estate_es_jyndjh_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsmm_info.aspx.designer.vb">
+      <DependentUpon>estate_es_qrsmm_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsmm_info.aspx.vb">
+      <DependentUpon>estate_es_qrsmm_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsmm_list.aspx.designer.vb">
+      <DependentUpon>estate_es_qrsmm_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsmm_list.aspx.vb">
+      <DependentUpon>estate_es_qrsmm_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsmm_wuye.aspx.designer.vb">
+      <DependentUpon>estate_es_qrsmm_wuye.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsmm_wuye.aspx.vb">
+      <DependentUpon>estate_es_qrsmm_wuye.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsqt_info.aspx.designer.vb">
+      <DependentUpon>estate_es_qrsqt_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsqt_info.aspx.vb">
+      <DependentUpon>estate_es_qrsqt_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsqt_list.aspx.designer.vb">
+      <DependentUpon>estate_es_qrsqt_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsqt_list.aspx.vb">
+      <DependentUpon>estate_es_qrsqt_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsqt_wuye.aspx.designer.vb">
+      <DependentUpon>estate_es_qrsqt_wuye.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrsqt_wuye.aspx.vb">
+      <DependentUpon>estate_es_qrsqt_wuye.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrszl_info.aspx.designer.vb">
+      <DependentUpon>estate_es_qrszl_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrszl_info.aspx.vb">
+      <DependentUpon>estate_es_qrszl_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrszl_list.aspx.designer.vb">
+      <DependentUpon>estate_es_qrszl_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrszl_list.aspx.vb">
+      <DependentUpon>estate_es_qrszl_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrszl_wuye.aspx.designer.vb">
+      <DependentUpon>estate_es_qrszl_wuye.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_qrszl_wuye.aspx.vb">
+      <DependentUpon>estate_es_qrszl_wuye.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_xz_htxx.aspx.designer.vb">
+      <DependentUpon>estate_es_xz_htxx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_xz_htxx.aspx.vb">
+      <DependentUpon>estate_es_xz_htxx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_xz_jyxx.aspx.designer.vb">
+      <DependentUpon>estate_es_xz_jyxx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_xz_jyxx.aspx.vb">
+      <DependentUpon>estate_es_xz_jyxx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_yjjt.aspx.designer.vb">
+      <DependentUpon>estate_es_yjjt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\ershou\estate_es_yjjt.aspx.vb">
+      <DependentUpon>estate_es_yjjt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_jgxz.aspx.designer.vb">
+      <DependentUpon>estate_rs_jgxz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_jgxz.aspx.vb">
+      <DependentUpon>estate_rs_jgxz.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_lztz.aspx.designer.vb">
+      <DependentUpon>estate_rs_lztz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_lztz.aspx.vb">
+      <DependentUpon>estate_rs_lztz.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_lztz_info.aspx.designer.vb">
+      <DependentUpon>estate_rs_lztz_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_lztz_info.aspx.vb">
+      <DependentUpon>estate_rs_lztz_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_nbtz.aspx.designer.vb">
+      <DependentUpon>estate_rs_nbtz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_nbtz.aspx.vb">
+      <DependentUpon>estate_rs_nbtz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_nbtz_info.aspx.designer.vb">
+      <DependentUpon>estate_rs_nbtz_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_nbtz_info.aspx.vb">
+      <DependentUpon>estate_rs_nbtz_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_ruzhi.aspx.designer.vb">
+      <DependentUpon>estate_rs_ruzhi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_ruzhi.aspx.vb">
+      <DependentUpon>estate_rs_ruzhi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_ruzhi_info.aspx.designer.vb">
+      <DependentUpon>estate_rs_ruzhi_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_ruzhi_info.aspx.vb">
+      <DependentUpon>estate_rs_ruzhi_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_shixisheng.aspx.designer.vb">
+      <DependentUpon>estate_rs_shixisheng.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_shixisheng.aspx.vb">
+      <DependentUpon>estate_rs_shixisheng.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_shixisheng_info.aspx.designer.vb">
+      <DependentUpon>estate_rs_shixisheng_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_shixisheng_info.aspx.vb">
+      <DependentUpon>estate_rs_shixisheng_info.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_zpqd.aspx.designer.vb">
+      <DependentUpon>estate_rs_zpqd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\nrenshi\estate_rs_zpqd.aspx.vb">
+      <DependentUpon>estate_rs_zpqd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x4.aspx.designer.vb">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun_x4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x4.aspx.vb">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun_x4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_esldhtjmqxb.aspx.designer.vb">
+      <DependentUpon>estate_rs_bb_esldhtjmqxb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_esldhtjmqxb.aspx.vb">
+      <DependentUpon>estate_rs_bb_esldhtjmqxb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_esldjjbb.aspx.designer.vb">
+      <DependentUpon>estate_rs_bb_esldjjbb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_esldjjbb.aspx.vb">
+      <DependentUpon>estate_rs_bb_esldjjbb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_esldjnbb.aspx.designer.vb">
+      <DependentUpon>estate_rs_bb_esldjnbb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_esldjnbb.aspx.vb">
+      <DependentUpon>estate_rs_bb_esldjnbb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_esrlzyxxhzb.aspx.designer.vb">
+      <DependentUpon>estate_rs_bb_esrlzyxxhzb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_esrlzyxxhzb.aspx.vb">
+      <DependentUpon>estate_rs_bb_esrlzyxxhzb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_esryzjydb.aspx.designer.vb">
+      <DependentUpon>estate_rs_bb_esryzjydb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_esryzjydb.aspx.vb">
+      <DependentUpon>estate_rs_bb_esryzjydb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_essyzgkh.aspx.designer.vb">
+      <DependentUpon>estate_rs_bb_essyzgkh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_essyzgkh.aspx.vb">
+      <DependentUpon>estate_rs_bb_essyzgkh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_eszszgkh.aspx.designer.vb">
+      <DependentUpon>estate_rs_bb_eszszgkh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_eszszgkh.aspx.vb">
+      <DependentUpon>estate_rs_bb_eszszgkh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_kh_gl.aspx.designer.vb">
+      <DependentUpon>estate_rs_bb_kh_gl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_kh_gl.aspx.vb">
+      <DependentUpon>estate_rs_bb_kh_gl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_kh_jy.aspx.designer.vb">
+      <DependentUpon>estate_rs_bb_kh_jy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_bb_kh_jy.aspx.vb">
+      <DependentUpon>estate_rs_bb_kh_jy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_biandongyuanyin.aspx.designer.vb">
+      <DependentUpon>estate_rs_biandongyuanyin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_biandongyuanyin.aspx.vb">
+      <DependentUpon>estate_rs_biandongyuanyin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_grll_info.aspx.designer.vb">
+      <DependentUpon>estate_rs_grll_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_grll_info.aspx.vb">
+      <DependentUpon>estate_rs_grll_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_grll_main.aspx.designer.vb">
+      <DependentUpon>estate_rs_grll_main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_grll_main.aspx.vb">
+      <DependentUpon>estate_rs_grll_main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_jishuzhicheng.aspx.designer.vb">
+      <DependentUpon>estate_rs_jishuzhicheng.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_jishuzhicheng.aspx.vb">
+      <DependentUpon>estate_rs_jishuzhicheng.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_kaohebiaozhun.aspx.designer.vb">
+      <DependentUpon>estate_rs_kaohebiaozhun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_kaohebiaozhun.aspx.vb">
+      <DependentUpon>estate_rs_kaohebiaozhun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_kaohebiaozhun_x2.aspx.designer.vb">
+      <DependentUpon>estate_rs_kaohebiaozhun_x2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_kaohebiaozhun_x2.aspx.vb">
+      <DependentUpon>estate_rs_kaohebiaozhun_x2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_luyong_info.aspx.designer.vb">
+      <DependentUpon>estate_rs_luyong_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_luyong_info.aspx.vb">
+      <DependentUpon>estate_rs_luyong_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_luyong_main.aspx.designer.vb">
+      <DependentUpon>estate_rs_luyong_main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_luyong_main.aspx.vb">
+      <DependentUpon>estate_rs_luyong_main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_add.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_add.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_add_mn.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_add_mn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_add_mn.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_add_mn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_add_x2.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_add_x2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_add_x2.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_add_x2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_bdls.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_bdls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_bdls.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_bdls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_bdls_x2.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_bdls_x2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_bdls_x2.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_bdls_x2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_del.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_del.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_del.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_del.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_del_mn.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_del_mn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_del_mn.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_del_mn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_del_x2.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_del_x2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_del_x2.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_del_x2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_list.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_list.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_mdfy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_mdfy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy_mn.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_mdfy_mn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy_mn.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_mdfy_mn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy_x2.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_mdfy_x2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy_x2.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_mdfy_x2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_mn.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_mn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_mn.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_mn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_rela.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_rela.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_rela.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_rela.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_x2.aspx.designer.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_x2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_renyuanjiagou_x2.aspx.vb">
+      <DependentUpon>estate_rs_renyuanjiagou_x2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_rskp_info.aspx.designer.vb">
+      <DependentUpon>estate_rs_rskp_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_rskp_info.aspx.vb">
+      <DependentUpon>estate_rs_rskp_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_rskp_ldht.aspx.designer.vb">
+      <DependentUpon>estate_rs_rskp_ldht.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_rskp_ldht.aspx.vb">
+      <DependentUpon>estate_rs_rskp_ldht.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_rskp_main.aspx.designer.vb">
+      <DependentUpon>estate_rs_rskp_main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_rskp_main.aspx.vb">
+      <DependentUpon>estate_rs_rskp_main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_rskp_pxjl.aspx.designer.vb">
+      <DependentUpon>estate_rs_rskp_pxjl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_rskp_pxjl.aspx.vb">
+      <DependentUpon>estate_rs_rskp_pxjl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_rskp_ydjl.aspx.designer.vb">
+      <DependentUpon>estate_rs_rskp_ydjl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_rskp_ydjl.aspx.vb">
+      <DependentUpon>estate_rs_rskp_ydjl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_xuelihuafen.aspx.designer.vb">
+      <DependentUpon>estate_rs_xuelihuafen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_xuelihuafen.aspx.vb">
+      <DependentUpon>estate_rs_xuelihuafen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_xueweihuafen.aspx.designer.vb">
+      <DependentUpon>estate_rs_xueweihuafen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_xueweihuafen.aspx.vb">
+      <DependentUpon>estate_rs_xueweihuafen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_xz_team.aspx.designer.vb">
+      <DependentUpon>estate_rs_xz_team.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_xz_team.aspx.vb">
+      <DependentUpon>estate_rs_xz_team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun.aspx.designer.vb">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun.aspx.vb">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x2.aspx.designer.vb">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun_x2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x2.aspx.vb">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun_x2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x3.aspx.designer.vb">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun_x3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x3.aspx.vb">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun_x3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_zhengzhimianmao.aspx.designer.vb">
+      <DependentUpon>estate_rs_zhengzhimianmao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_zhengzhimianmao.aspx.vb">
+      <DependentUpon>estate_rs_zhengzhimianmao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_zhigongshuxing.aspx.designer.vb">
+      <DependentUpon>estate_rs_zhigongshuxing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_zhigongshuxing.aspx.vb">
+      <DependentUpon>estate_rs_zhigongshuxing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_zhijidingyi.aspx.designer.vb">
+      <DependentUpon>estate_rs_zhijidingyi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_zhijidingyi.aspx.vb">
+      <DependentUpon>estate_rs_zhijidingyi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_zhiyezige.aspx.designer.vb">
+      <DependentUpon>estate_rs_zhiyezige.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\estate\renshi\estate_rs_zhiyezige.aspx.vb">
+      <DependentUpon>estate_rs_zhiyezige.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_bjyj.aspx.vb">
+      <DependentUpon>flow_bjyj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_bycl.aspx.vb">
+      <DependentUpon>flow_bycl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_byqk.aspx.vb">
+      <DependentUpon>flow_byqk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_ckcbqk.aspx.vb">
+      <DependentUpon>flow_ckcbqk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_ckdbqk.aspx.vb">
+      <DependentUpon>flow_ckdbqk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_cuiban.aspx.vb">
+      <DependentUpon>flow_cuiban.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_czrz.aspx.vb">
+      <DependentUpon>flow_czrz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_duban.aspx.vb">
+      <DependentUpon>flow_duban.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_dubanjg.aspx.vb">
+      <DependentUpon>flow_dubanjg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_editword.aspx.vb">
+      <DependentUpon>flow_editword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_editword_save.aspx.vb">
+      <DependentUpon>flow_editword_save.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_fujian.aspx.vb">
+      <DependentUpon>flow_fujian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_fujian_info.aspx.vb">
+      <DependentUpon>flow_fujian_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_importqp.aspx.vb">
+      <DependentUpon>flow_importqp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_importzs.aspx.vb">
+      <DependentUpon>flow_importzs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_lzqk.aspx.vb">
+      <DependentUpon>flow_lzqk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_receive.aspx.vb">
+      <DependentUpon>flow_receive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_send.aspx.vb">
+      <DependentUpon>flow_send.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_shouhui.aspx.vb">
+      <DependentUpon>flow_shouhui.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_spyj.aspx.vb">
+      <DependentUpon>flow_spyj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_spyjtx.aspx.vb">
+      <DependentUpon>flow_spyjtx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_tuihui.aspx.vb">
+      <DependentUpon>flow_tuihui.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_xgwj.aspx.vb">
+      <DependentUpon>flow_xgwj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_xgwjfj_info.aspx.vb">
+      <DependentUpon>flow_xgwjfj_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\flow_rs\flow_xgwjlj_add.aspx.vb">
+      <DependentUpon>flow_xgwjlj_add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_admin_bz.aspx.designer.vb">
+      <DependentUpon>gzsp_admin_bz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_admin_bz.aspx.vb">
+      <DependentUpon>gzsp_admin_bz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_admin_jjxx.aspx.designer.vb">
+      <DependentUpon>gzsp_admin_jjxx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_admin_jjxx.aspx.vb">
+      <DependentUpon>gzsp_admin_jjxx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_admin_spxx.aspx.designer.vb">
+      <DependentUpon>gzsp_admin_spxx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_admin_spxx.aspx.vb">
+      <DependentUpon>gzsp_admin_spxx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_flow.aspx.designer.vb">
+      <DependentUpon>gzsp_flow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_flow.aspx.vb">
+      <DependentUpon>gzsp_flow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_lzList.aspx.designer.vb">
+      <DependentUpon>gzsp_lzList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_lzList.aspx.vb">
+      <DependentUpon>gzsp_lzList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_nbtzList.aspx.designer.vb">
+      <DependentUpon>gzsp_nbtzList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_nbtzList.aspx.vb">
+      <DependentUpon>gzsp_nbtzList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_rzryList.aspx.designer.vb">
+      <DependentUpon>gzsp_rzryList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_rzryList.aspx.vb">
+      <DependentUpon>gzsp_rzryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_sxsList.aspx.designer.vb">
+      <DependentUpon>gzsp_sxsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\gzflow\gzsp_sxsList.aspx.vb">
+      <DependentUpon>gzsp_sxsList.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_bxj.aspx.designer.vb">
+      <DependentUpon>kqgl_bxj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_bxj.aspx.vb">
+      <DependentUpon>kqgl_bxj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_kqjl.aspx.designer.vb">
+      <DependentUpon>kqgl_kqjl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_kqjl.aspx.vb">
+      <DependentUpon>kqgl_kqjl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_kqjl_bgs.aspx.designer.vb">
+      <DependentUpon>kqgl_kqjl_bgs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_kqjl_bgs.aspx.vb">
+      <DependentUpon>kqgl_kqjl_bgs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_kqlx.aspx.designer.vb">
+      <DependentUpon>kqgl_kqlx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_kqlx.aspx.vb">
+      <DependentUpon>kqgl_kqlx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_nxj.aspx.designer.vb">
+      <DependentUpon>kqgl_nxj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_nxj.aspx.vb">
+      <DependentUpon>kqgl_nxj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_qjd.aspx.designer.vb">
+      <DependentUpon>kqgl_qjd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_qjd.aspx.vb">
+      <DependentUpon>kqgl_qjd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_qjd_info.aspx.designer.vb">
+      <DependentUpon>kqgl_qjd_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_qjd_info.aspx.vb">
+      <DependentUpon>kqgl_qjd_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_yxj.aspx.designer.vb">
+      <DependentUpon>kqgl_yxj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_yxj.aspx.vb">
+      <DependentUpon>kqgl_yxj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_yxj_zj.aspx.designer.vb">
+      <DependentUpon>kqgl_yxj_zj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\kqgl\kqgl_yxj_zj.aspx.vb">
+      <DependentUpon>kqgl_yxj_zj.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\kqgl\kqjl_print.aspx.designer.vb">
+      <DependentUpon>kqjl_print.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\kqgl\kqjl_print.aspx.vb">
+      <DependentUpon>kqjl_print.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\ryxz\dwxz_bmmc.aspx.designer.vb">
+      <DependentUpon>dwxz_bmmc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\ryxz\dwxz_bmmc.aspx.vb">
+      <DependentUpon>dwxz_bmmc.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\ryxz\dwxz_dwmc.aspx.designer.vb">
+      <DependentUpon>dwxz_dwmc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\ryxz\dwxz_dwmc.aspx.vb">
+      <DependentUpon>dwxz_dwmc.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\ryxz\ryxz_zzry.aspx.designer.vb">
+      <DependentUpon>ryxz_zzry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\ryxz\ryxz_zzry.aspx.vb">
+      <DependentUpon>ryxz_zzry.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="secure\staffmanager\staff_information.aspx.designer.vb">
+      <DependentUpon>staff_information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\staffmanager\staff_information.aspx.vb">
+      <DependentUpon>staff_information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\staffmanager\staff_information_role.aspx.designer.vb">
+      <DependentUpon>staff_information_role.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\staffmanager\staff_information_role.aspx.vb">
+      <DependentUpon>staff_information_role.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="secure\staffmanager\staff_manager.aspx.designer.vb">
+      <DependentUpon>staff_manager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="secure\staffmanager\staff_manager.aspx.vb">
+      <DependentUpon>staff_manager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\caiwu\estate_cw_piaoju_fafang.aspx.resx">
+      <DependentUpon>estate_cw_piaoju_fafang.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\caiwu\estate_cw_piaoju_jiankong.aspx.resx">
+      <DependentUpon>estate_cw_piaoju_jiankong.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\caiwu\estate_cw_piaoju_shiyong.aspx.resx">
+      <DependentUpon>estate_cw_piaoju_shiyong.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\caiwu\estate_cw_sssf.aspx.resx">
+      <DependentUpon>estate_cw_sssf.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\caiwu\estate_cw_sssf_jh.aspx.resx">
+      <DependentUpon>estate_cw_sssf_jh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\caiwu\estate_cw_sssf_jz.aspx.resx">
+      <DependentUpon>estate_cw_sssf_jz.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\caiwu\estate_cw_sssf_sh.aspx.resx">
+      <DependentUpon>estate_cw_sssf_sh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\caiwu\estate_cw_sztz.aspx.resx">
+      <DependentUpon>estate_cw_sztz.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\caiwu\estate_cw_xz_piaoju.aspx.resx">
+      <DependentUpon>estate_cw_xz_piaoju.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\caiwu\estate_cw_ysyf.aspx.resx">
+      <DependentUpon>estate_cw_ysyf.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\common\estate_gg_baxm.aspx.resx">
+      <DependentUpon>estate_gg_baxm.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\common\estate_gg_quyuhuafen.aspx.resx">
+      <DependentUpon>estate_gg_quyuhuafen.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\common\estate_gg_shuifeimulu.aspx.resx">
+      <DependentUpon>estate_gg_shuifeimulu.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\common\estate_gg_wuyejiange.aspx.resx">
+      <DependentUpon>estate_gg_wuyejiange.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\common\estate_gg_wuyexingzhi.aspx.resx">
+      <DependentUpon>estate_gg_wuyexingzhi.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\common\estate_gg_yingshouyingfumoban.aspx.resx">
+      <DependentUpon>estate_gg_yingshouyingfumoban.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esdlqyqkb.aspx.resx">
+      <DependentUpon>estate_es_bb_esdlqyqkb.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esjaqkb_gfh.aspx.resx">
+      <DependentUpon>estate_es_bb_esjaqkb_gfh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esjsqkb_gfh.aspx.resx">
+      <DependentUpon>estate_es_bb_esjsqkb_gfh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esjsqkb_gyd.aspx.resx">
+      <DependentUpon>estate_es_bb_esjsqkb_gyd.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esjsqkb_gyw.aspx.resx">
+      <DependentUpon>estate_es_bb_esjsqkb_gyw.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esjyqd_gy.aspx.resx">
+      <DependentUpon>estate_es_bb_esjyqd_gy.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esjyqd_gybf.aspx.resx">
+      <DependentUpon>estate_es_bb_esjyqd_gybf.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esjyqd_gy_x2.aspx.resx">
+      <DependentUpon>estate_es_bb_esjyqd_gy_x2.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esjyqd_sy.aspx.resx">
+      <DependentUpon>estate_es_bb_esjyqd_sy.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esjyqd_sy_x2.aspx.resx">
+      <DependentUpon>estate_es_bb_esjyqd_sy_x2.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esnddb.aspx.resx">
+      <DependentUpon>estate_es_bb_esnddb.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esphbbmyj.aspx.resx">
+      <DependentUpon>estate_es_bb_esphbbmyj.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esphbqyyj.aspx.resx">
+      <DependentUpon>estate_es_bb_esphbqyyj.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esphbryyj.aspx.resx">
+      <DependentUpon>estate_es_bb_esphbryyj.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_eswcqkb_gfh.aspx.resx">
+      <DependentUpon>estate_es_bb_eswcqkb_gfh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esyjfpb.aspx.resx">
+      <DependentUpon>estate_es_bb_esyjfpb.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esyjfpb_x2.aspx.resx">
+      <DependentUpon>estate_es_bb_esyjfpb_x2.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja.aspx.resx">
+      <DependentUpon>estate_es_bb_esywdlqd_ja.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja1_all.aspx.resx">
+      <DependentUpon>estate_es_bb_esywdlqd_ja1_all.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja1_ys.aspx.resx">
+      <DependentUpon>estate_es_bb_esywdlqd_ja1_ys.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja_all.aspx.resx">
+      <DependentUpon>estate_es_bb_esywdlqd_ja_all.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esywdlqd_ja_ws.aspx.resx">
+      <DependentUpon>estate_es_bb_esywdlqd_ja_ws.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esywdlqd_wc.aspx.resx">
+      <DependentUpon>estate_es_bb_esywdlqd_wc.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esywdlqd_yjwj.aspx.resx">
+      <DependentUpon>estate_es_bb_esywdlqd_yjwj.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_bb_esywdlqd_yjwjw.aspx.resx">
+      <DependentUpon>estate_es_bb_esywdlqd_yjwjw.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetongmm_info.aspx.resx">
+      <DependentUpon>estate_es_hetongmm_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetongmm_list.aspx.resx">
+      <DependentUpon>estate_es_hetongmm_list.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetongqt_info.aspx.resx">
+      <DependentUpon>estate_es_hetongqt_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetongqt_list.aspx.resx">
+      <DependentUpon>estate_es_hetongqt_list.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetongzl_info.aspx.resx">
+      <DependentUpon>estate_es_hetongzl_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetongzl_list.aspx.resx">
+      <DependentUpon>estate_es_hetongzl_list.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetong_bl.aspx.resx">
+      <DependentUpon>estate_es_hetong_bl.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetong_fpbl.aspx.resx">
+      <DependentUpon>estate_es_hetong_fpbl.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetong_jss_info.aspx.resx">
+      <DependentUpon>estate_es_hetong_jss_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetong_jss_list.aspx.resx">
+      <DependentUpon>estate_es_hetong_jss_list.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetong_jss_sh.aspx.resx">
+      <DependentUpon>estate_es_hetong_jss_sh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetong_list.aspx.resx">
+      <DependentUpon>estate_es_hetong_list.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetong_qzbj.aspx.resx">
+      <DependentUpon>estate_es_hetong_qzbj.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetong_sh.aspx.resx">
+      <DependentUpon>estate_es_hetong_sh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetong_wc.aspx.resx">
+      <DependentUpon>estate_es_hetong_wc.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_hetong_zksh.aspx.resx">
+      <DependentUpon>estate_es_hetong_zksh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_jyndjh.aspx.resx">
+      <DependentUpon>estate_es_jyndjh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_jyndjh_info.aspx.resx">
+      <DependentUpon>estate_es_jyndjh_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_qrsmm_info.aspx.resx">
+      <DependentUpon>estate_es_qrsmm_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_qrsmm_list.aspx.resx">
+      <DependentUpon>estate_es_qrsmm_list.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_qrsmm_wuye.aspx.resx">
+      <DependentUpon>estate_es_qrsmm_wuye.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_qrsqt_info.aspx.resx">
+      <DependentUpon>estate_es_qrsqt_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_qrsqt_list.aspx.resx">
+      <DependentUpon>estate_es_qrsqt_list.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_qrsqt_wuye.aspx.resx">
+      <DependentUpon>estate_es_qrsqt_wuye.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_qrszl_info.aspx.resx">
+      <DependentUpon>estate_es_qrszl_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_qrszl_list.aspx.resx">
+      <DependentUpon>estate_es_qrszl_list.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_qrszl_wuye.aspx.resx">
+      <DependentUpon>estate_es_qrszl_wuye.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_xz_htxx.aspx.resx">
+      <DependentUpon>estate_es_xz_htxx.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\ershou\estate_es_xz_jyxx.aspx.resx">
+      <DependentUpon>estate_es_xz_jyxx.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_bb_esldhtjmqxb.aspx.resx">
+      <DependentUpon>estate_rs_bb_esldhtjmqxb.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_bb_esldjjbb.aspx.resx">
+      <DependentUpon>estate_rs_bb_esldjjbb.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_bb_esldjnbb.aspx.resx">
+      <DependentUpon>estate_rs_bb_esldjnbb.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_bb_esrlzyxxhzb.aspx.resx">
+      <DependentUpon>estate_rs_bb_esrlzyxxhzb.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_bb_esryzjydb.aspx.resx">
+      <DependentUpon>estate_rs_bb_esryzjydb.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_bb_essyzgkh.aspx.resx">
+      <DependentUpon>estate_rs_bb_essyzgkh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_bb_eszszgkh.aspx.resx">
+      <DependentUpon>estate_rs_bb_eszszgkh.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_bb_kh_gl.aspx.resx">
+      <DependentUpon>estate_rs_bb_kh_gl.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_bb_kh_jy.aspx.resx">
+      <DependentUpon>estate_rs_bb_kh_jy.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_biandongyuanyin.aspx.resx">
+      <DependentUpon>estate_rs_biandongyuanyin.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_grll_info.aspx.resx">
+      <DependentUpon>estate_rs_grll_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_grll_main.aspx.resx">
+      <DependentUpon>estate_rs_grll_main.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_jishuzhicheng.aspx.resx">
+      <DependentUpon>estate_rs_jishuzhicheng.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_kaohebiaozhun.aspx.resx">
+      <DependentUpon>estate_rs_kaohebiaozhun.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_kaohebiaozhun_x2.aspx.resx">
+      <DependentUpon>estate_rs_kaohebiaozhun_x2.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_luyong_info.aspx.resx">
+      <DependentUpon>estate_rs_luyong_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_luyong_main.aspx.resx">
+      <DependentUpon>estate_rs_luyong_main.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_add.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_add.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_add_mn.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_add_mn.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_add_x2.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_add_x2.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_bdls.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_bdls.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_bdls_x2.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_bdls_x2.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_del.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_del.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_del_mn.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_del_mn.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_del_x2.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_del_x2.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_list.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_list.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_mdfy.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy_mn.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_mdfy_mn.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_mdfy_x2.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_mdfy_x2.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_mn.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_mn.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_rela.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_rela.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_renyuanjiagou_x2.aspx.resx">
+      <DependentUpon>estate_rs_renyuanjiagou_x2.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_rskp_info.aspx.resx">
+      <DependentUpon>estate_rs_rskp_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_rskp_ldht.aspx.resx">
+      <DependentUpon>estate_rs_rskp_ldht.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_rskp_main.aspx.resx">
+      <DependentUpon>estate_rs_rskp_main.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_rskp_pxjl.aspx.resx">
+      <DependentUpon>estate_rs_rskp_pxjl.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_rskp_ydjl.aspx.resx">
+      <DependentUpon>estate_rs_rskp_ydjl.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_xuelihuafen.aspx.resx">
+      <DependentUpon>estate_rs_xuelihuafen.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_xueweihuafen.aspx.resx">
+      <DependentUpon>estate_rs_xueweihuafen.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_xz_team.aspx.resx">
+      <DependentUpon>estate_rs_xz_team.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun.aspx.resx">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x2.aspx.resx">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun_x2.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_yongjinjitibiaozhun_x3.aspx.resx">
+      <DependentUpon>estate_rs_yongjinjitibiaozhun_x3.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_zhengzhimianmao.aspx.resx">
+      <DependentUpon>estate_rs_zhengzhimianmao.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_zhigongshuxing.aspx.resx">
+      <DependentUpon>estate_rs_zhigongshuxing.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_zhijidingyi.aspx.resx">
+      <DependentUpon>estate_rs_zhijidingyi.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\estate\renshi\estate_rs_zhiyezige.aspx.resx">
+      <DependentUpon>estate_rs_zhiyezige.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_bjyj.aspx.resx">
+      <DependentUpon>flow_bjyj.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_bycl.aspx.resx">
+      <DependentUpon>flow_bycl.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_byqk.aspx.resx">
+      <DependentUpon>flow_byqk.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_ckcbqk.aspx.resx">
+      <DependentUpon>flow_ckcbqk.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_ckdbqk.aspx.resx">
+      <DependentUpon>flow_ckdbqk.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_cuiban.aspx.resx">
+      <DependentUpon>flow_cuiban.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_czrz.aspx.resx">
+      <DependentUpon>flow_czrz.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_duban.aspx.resx">
+      <DependentUpon>flow_duban.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_dubanjg.aspx.resx">
+      <DependentUpon>flow_dubanjg.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_editword.aspx.resx">
+      <DependentUpon>flow_editword.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_editword_save.aspx.resx">
+      <DependentUpon>flow_editword_save.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_fujian.aspx.resx">
+      <DependentUpon>flow_fujian.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_fujian_info.aspx.resx">
+      <DependentUpon>flow_fujian_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_importqp.aspx.resx">
+      <DependentUpon>flow_importqp.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_importzs.aspx.resx">
+      <DependentUpon>flow_importzs.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_lzqk.aspx.resx">
+      <DependentUpon>flow_lzqk.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_receive.aspx.resx">
+      <DependentUpon>flow_receive.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_send.aspx.resx">
+      <DependentUpon>flow_send.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_shouhui.aspx.resx">
+      <DependentUpon>flow_shouhui.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_spyj.aspx.resx">
+      <DependentUpon>flow_spyj.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_spyjtx.aspx.resx">
+      <DependentUpon>flow_spyjtx.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_tuihui.aspx.resx">
+      <DependentUpon>flow_tuihui.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_xgwj.aspx.resx">
+      <DependentUpon>flow_xgwj.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_xgwjfj_info.aspx.resx">
+      <DependentUpon>flow_xgwjfj_info.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secure\flow_rs\flow_xgwjlj_add.aspx.resx">
+      <DependentUpon>flow_xgwjlj_add.aspx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="audit\" />
+    <Folder Include="cabs\" />
+    <Folder Include="class\" />
+    <Folder Include="htmledit\images\" />
+    <Folder Include="images\" />
+    <Folder Include="log\" />
+    <Folder Include="My Project\" />
+    <Folder Include="profile\" />
+    <Folder Include="public\" />
+    <Folder Include="secure\estate\baobiao\" />
+    <Folder Include="template\" />
+    <Folder Include="temp\" />
+    <Folder Include="userlock\" />
+    <Folder Include="ziyuan\" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49597</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/webapp/slb/web</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties TDLFILE="" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+</Project>

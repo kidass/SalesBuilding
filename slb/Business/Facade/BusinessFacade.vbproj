@@ -1,0 +1,933 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8A3D043-6934-43F8-BA47-55FFAE96EA7D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Josco.JSOA.BusinessFacade</AssemblyName>
+    <AssemblyOriginatorKeyFile>gzcjxyhc.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Flow</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE32Nav30</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\web\bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>0</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41998,42004,42024,42025,42026,42029,42030,42031,42099,42104,42105,42106,42107,42108,42109</NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\web\bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>0</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41998,42004,42024,42025,42026,42029,42030,42031,42099,42104,42105,42106,42107,42108,42109</NoWarn>
+    <DebugType>none</DebugType>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Josco.JsKernal.BusinessFacade, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL" />
+    <Reference Include="Josco.JsKernal.BusinessRules, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Josco.JsKernal.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Josco.JsKernal.DataAccess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Josco.JsKernal.SystemFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Josco.JSOA.BusinessRules, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7f1155316a506a74, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Josco.JSOA.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7f1155316a506a74, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Josco.JSOA.DataAccess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7f1155316a506a74, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ESTATE\CAIWU\systemEstateCaiwu.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ESTATE\COMMON\systemEstateCommon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ESTATE\ERSHOU\systemEstateErshou.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ESTATE\RENSHI\systemEstateRenshiGeneral.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ESTATE\RENSHI\systemEstateRenshiXingye.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ESTATE\RENSHI\systemFlowObjectRenshiLiZhi.vb" />
+    <Compile Include="ESTATE\RENSHI\systemFlowObjectRenshiLuyong.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ESTATE\RENSHI\systemFlowObjectRenshiRuZhi.vb" />
+    <Compile Include="ESTATE\RENSHI\systemFlowObjectRenshiShiXisheng.vb" />
+    <Compile Include="ESTATE\RENSHI\systemFlowObjectRenshiTiaozheng.vb" />
+    <Compile Include="FLOW\systemFlowObject.vb" />
+    <Compile Include="FLOW\systemFlowObjectCreate.vb" />
+    <Compile Include="GZSP\systemEditWorkFlow.vb" />
+    <Compile Include="GZSP\systemGzsp.vb" />
+    <Compile Include="Interface\Call\Estate\CaiWu\iEstateCwPiaojuFafang.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\CaiWu\iEstateCwPiaojuJiankong.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\CaiWu\iEstateCwPiaojuShiyong.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\CaiWu\iEstateCwSssf.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\CaiWu\iEstateCwSssfJh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\CaiWu\iEstateCwSssfJz.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\CaiWu\iEstateCwSssfSh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\CaiWu\iEstateCwSztz.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\CaiWu\iEstateCwXzPiaoju.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\CaiWu\iEstateCwYsyf.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Common\iEstateGgBaxm.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Common\iEstateGgQuyuHuafen.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Common\iEstateGgShuifeiMulu.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Common\iEstateGgWuyeJiange.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Common\iEstateGgWuyeXingzhi.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Common\iEstateGgYingshouYingfuMoban.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsdljaqkbGfh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsdljsqkbGfh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsdljsqkbGyd.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsdljsqkbGyw.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsdlqyqkb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsdlwcqkbGfh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsjyqdGy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsjyqdGybf.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsjyqdGyX2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsjyqdSy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsjyqdSyX2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsNddb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsphbbmyj.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsphbqyyj.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsphbryyj.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsYjfpb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsYjfpbX2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsywdlqdJa.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsywdlqdJa1All.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsywdlqdJa1Ys.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsywdlqdJaAll.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsywdlqdJaWs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsywdlqdWc.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsywdlqdYjwj.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbEsywdlqdYjwjw.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbFyxxb.vb" />
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbKyxxb.vb" />
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsBbYswsyjb.vb" />
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongBl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongFpbl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongJssBjyj.vb" />
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongJssInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongJssList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongJssSh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongMmInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongMmList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongMmQry.vb" />
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongQtInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongQtList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongQtQry.vb" />
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongQzbj.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongSh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongWc.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsYjjt.vb" />
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongZksh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongZlInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongZlList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsHetongZlQry.vb" />
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsJyndjh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsJyndjhInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsQrsMmInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsQrsMmList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsQrsMmWuye.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsQrsQtInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsQrsQtList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsQrsQtWuye.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsQrsZlInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsQrsZlList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsQrsZlWuye.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsXzHtxx.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\iEstateEsXzJyxx.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\ErShou\IEstateNianduJihua.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\esDmxz\IDmxzRyjg.vb" />
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsBbEsLdhtjmqxb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsBbEsLdjjbb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsBbEsLdjnbb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsBbEsRlzyxxhzb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsBbEsRyzjydb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsBbEsSyzgkh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsBbEsZszgkh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsBbKhGl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsBbKhJy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsBiandongYuanyin.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsGrllInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsGrllMain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsJishuZhicheng.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsKaoheBiaozhun.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsKaoheBiaozhun_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsLuyongInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsLuyongMain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_Add.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_Add_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_Bdls.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_Bdls_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_Del.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_Del_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_List.vb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_Mdfy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_Mdfy_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_Rela.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRenyuanJiagou_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRskpInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRskpLdht.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRskpMain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRskpPxjl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsRskpYdjl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsXueliHuafen.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsXueweiHuafen.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsXzTeam.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsYongjinJitiBiaozhun.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsYongjinJitiBiaozhun_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsYongjinJitiBiaozhun_X3.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsYongjinJitiBiaozhun_X4.vb" />
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsZhengzhiMianmao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsZhigongShuxing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsZhijiDingyi.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Estate\Renshi\iEstateRsZhiyeZige.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Call\Flow\iFlowBjyj.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowBycl.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowByqk.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowCkcbqk.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowCkdbqk.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowCuiban.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowCzrz.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowDuban.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowDubanjg.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowEditWord.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowFujian.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowFujianInfo.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowImportQP.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowImportZS.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowLzqk.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowReceive.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowSend.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowShouhui.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowSpyj.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowSpyjtx.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowTuihui.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowXgwj.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowXgwjfjInfo.vb" />
+    <Compile Include="Interface\Call\Flow\iFlowXgwjljAdd.vb" />
+    <Compile Include="Interface\Call\Kqgl\iKqglkqjl.vb" />
+    <Compile Include="Interface\Self\Estate\CaiWu\iMEstateCwPiaojuFafang.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\CaiWu\iMEstateCwPiaojuJiankong.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\CaiWu\iMEstateCwPiaojuShiyong.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\CaiWu\iMEstateCwSssf.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\CaiWu\iMEstateCwSssfJh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\CaiWu\iMEstateCwSssfJz.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\CaiWu\iMEstateCwSssfSh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\CaiWu\iMEstateCwSztz.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\CaiWu\iMEstateCwXzPiaoju.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\CaiWu\iMEstateCwYsyf.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Common\iMEstateGgBaxm.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Common\iMEstateGgQuyuHuafen.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Common\iMEstateGgShuifeiMulu.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Common\iMEstateGgWuyeJiange.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Common\iMEstateGgWuyeXingzhi.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Common\iMEstateGgYingshouYingfuMoban.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsdljaqkbGfh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsdljsqkbGfh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsdljsqkbGyd.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsdljsqkbGyw.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsdlqyqkb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsdlwcqkbGfh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsjyqdGy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsjyqdGybf.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsjyqdGyX2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsjyqdSy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsjyqdSyX2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsNddb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsphbbmyj.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsphbqyyj.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsphbryyj.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsYjfpb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsYjfpbX2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsywdlqdJa.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsywdlqdJa1All.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsywdlqdJa1Ys.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsywdlqdJaAll.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsywdlqdJaWs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsywdlqdWc.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsywdlqdYjwj.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbEsywdlqdYjwjw.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbFyxxb.vb" />
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbKyxxb.vb" />
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsBbYswsyjb.vb" />
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongBl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongFpbl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongJssBjyj.vb" />
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongJssInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongJssList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongJssSh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongMmInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongMmList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongMmQry.vb" />
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongQtInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongQtList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongQtQry.vb" />
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongQzbj.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongSh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongWc.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsYjjt.vb" />
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongZksh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongZlInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongZlList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsHetongZlQry.vb" />
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsJyndjh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsJyndjhInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsQrsMmInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsQrsMmList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsQrsMmWuye.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsQrsQtInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsQrsQtList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsQrsQtWuye.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsQrsZlInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsQrsZlList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsQrsZlWuye.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsXzHtxx.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\iMEstateEsXzJyxx.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\ErShou\IMEstateNianduJihua.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\nRrenshi\iMEstateRsRuZhiInfo.vb" />
+    <Compile Include="Interface\Self\Estate\nRrenshi\iMEstateRSTiaoZhengInfo.vb" />
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsBbEsLdhtjmqxb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsBbEsLdjjbb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsBbEsLdjnbb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsBbEsRlzyxxhzb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsBbEsRyzjydb.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsBbEsSyzgkh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsBbEsZszgkh.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsBbKhGl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsBbKhJy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsBiandongYuanyin.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsGrllInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsGrllMain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsJishuZhicheng.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsKaoheBiaozhun.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsKaoheBiaozhun_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsLuyongInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsLuyongMain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_Add.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_Add_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_Bdls.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_Bdls_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_Del.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_Del_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_List.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_Mdfy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_Mdfy_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_Rela.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRenyuanJiagou_X2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRskpInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRskpLdht.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRskpMain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRskpPxjl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsRskpYdjl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsXueliHuafen.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsXueweiHuafen.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsXzTeam.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsYongjinJitiBiaozhun.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsYongjinJitiBiaozhun_x2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsYongjinJitiBiaozhun_x3.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsYongjinJitiBiaozhun_x4.vb" />
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsZhengzhiMianmao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsZhigongShuxing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsZhijiDingyi.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Estate\Renshi\iMEstateRsZhiyeZige.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interface\Self\Flow\iMFlowBjyj.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowBycl.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowByqk.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowCkcbqk.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowCkdbqk.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowCuiban.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowCzrz.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowDuban.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowDubanjg.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowEditWord.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowFujian.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowFujianInfo.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowImportQP.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowImportZS.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowLzqk.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowReceive.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowSend.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowShouhui.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowSpyj.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowSpyjtx.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowTuihui.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowXgwj.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowXgwjfjInfo.vb" />
+    <Compile Include="Interface\Self\Flow\iMFlowXgwjljAdd.vb" />
+    <Compile Include="Interface\Self\Kqgl\IMKqglkqjl.vb" />
+    <Compile Include="Interface\Self\Super\iCallInterface.vb" />
+    <Compile Include="KQGL\systemFlowObjectKqglQJD.vb" />
+    <Compile Include="KQGL\systemKaoqinguanli.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gzcjxyhc.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties TDLFILE="" TDLELEMENTTYPE="BusinessFacade" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

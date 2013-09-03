@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusinessFacade", "Business\Facade\BusinessFacade.vbproj", "{B8A3D043-6934-43F8-BA47-55FFAE96EA7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C5BA23B-4F5B-4339-8F93-52A1940C2765} = {8C5BA23B-4F5B-4339-8F93-52A1940C2765}
+		{399D343F-4091-48B4-B681-2C9ADA0361C2} = {399D343F-4091-48B4-B681-2C9ADA0361C2}
+		{F9CC64AB-59CB-41D8-8BB3-015288EDE666} = {F9CC64AB-59CB-41D8-8BB3-015288EDE666}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusinessRules", "Business\Rules\BusinessRules.vbproj", "{8C5BA23B-4F5B-4339-8F93-52A1940C2765}"
+	ProjectSection(ProjectDependencies) = postProject
+		{399D343F-4091-48B4-B681-2C9ADA0361C2} = {399D343F-4091-48B4-B681-2C9ADA0361C2}
+		{F9CC64AB-59CB-41D8-8BB3-015288EDE666} = {F9CC64AB-59CB-41D8-8BB3-015288EDE666}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Common", "Common\Common.vbproj", "{F9CC64AB-59CB-41D8-8BB3-015288EDE666}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataAccess", "DataAccess\DataAccess.vbproj", "{399D343F-4091-48B4-B681-2C9ADA0361C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F9CC64AB-59CB-41D8-8BB3-015288EDE666} = {F9CC64AB-59CB-41D8-8BB3-015288EDE666}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "web", "web\web.vbproj", "{32D3CD12-801F-4A36-AF5D-9BAA3C28A809}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C5BA23B-4F5B-4339-8F93-52A1940C2765} = {8C5BA23B-4F5B-4339-8F93-52A1940C2765}
+		{399D343F-4091-48B4-B681-2C9ADA0361C2} = {399D343F-4091-48B4-B681-2C9ADA0361C2}
+		{B8A3D043-6934-43F8-BA47-55FFAE96EA7D} = {B8A3D043-6934-43F8-BA47-55FFAE96EA7D}
+		{F9CC64AB-59CB-41D8-8BB3-015288EDE666} = {F9CC64AB-59CB-41D8-8BB3-015288EDE666}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8A3D043-6934-43F8-BA47-55FFAE96EA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A3D043-6934-43F8-BA47-55FFAE96EA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A3D043-6934-43F8-BA47-55FFAE96EA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A3D043-6934-43F8-BA47-55FFAE96EA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5BA23B-4F5B-4339-8F93-52A1940C2765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5BA23B-4F5B-4339-8F93-52A1940C2765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5BA23B-4F5B-4339-8F93-52A1940C2765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5BA23B-4F5B-4339-8F93-52A1940C2765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CC64AB-59CB-41D8-8BB3-015288EDE666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CC64AB-59CB-41D8-8BB3-015288EDE666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CC64AB-59CB-41D8-8BB3-015288EDE666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CC64AB-59CB-41D8-8BB3-015288EDE666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399D343F-4091-48B4-B681-2C9ADA0361C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399D343F-4091-48B4-B681-2C9ADA0361C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399D343F-4091-48B4-B681-2C9ADA0361C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399D343F-4091-48B4-B681-2C9ADA0361C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D3CD12-801F-4A36-AF5D-9BAA3C28A809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D3CD12-801F-4A36-AF5D-9BAA3C28A809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D3CD12-801F-4A36-AF5D-9BAA3C28A809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D3CD12-801F-4A36-AF5D-9BAA3C28A809}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

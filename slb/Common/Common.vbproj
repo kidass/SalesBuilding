@@ -1,0 +1,156 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9CC64AB-59CB-41D8-8BB3-015288EDE666}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Josco.JSOA.Common</AssemblyName>
+    <AssemblyOriginatorKeyFile>gzcjxyhc.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Flow</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE32Nav30</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\web\bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>0</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41998,42004,42024,42025,42026,42029,42030,42031,42099,42104,42105,42106,42107,42108,42109</NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\web\bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>0</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41998,42004,42024,42025,42026,42029,42030,42031,42099,42104,42105,42106,42107,42108,42109</NoWarn>
+    <DebugType>none</DebugType>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Josco.JsKernal.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Josco.JsKernal.SystemFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0ce24e5343dbe707, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\ESTATE\CAIWU\estateCaiwuData.vb">
+      <SubType>ESTATE-CAIWU</SubType>
+    </Compile>
+    <Compile Include="Data\ESTATE\COMMON\estateCommonData.vb">
+      <SubType>ESTATE-COMMON</SubType>
+    </Compile>
+    <Compile Include="Data\ESTATE\ERSHOU\estateErshouData.vb">
+      <SubType>ESTATE-ERSHOU</SubType>
+    </Compile>
+    <Compile Include="Data\ESTATE\RENSHI\estateRenshiGeneralData.vb">
+      <SubType>RENSHI</SubType>
+    </Compile>
+    <Compile Include="Data\ESTATE\RENSHI\estateRenshiXingyeData.vb">
+      <SubType>ESTATE-RENSHI</SubType>
+    </Compile>
+    <Compile Include="Data\FLOW\baseFlowData.vb" />
+    <Compile Include="Data\GZSP\gzspData.vb" />
+    <Compile Include="Data\KQGL\kaoqinguanliData.vb">
+      <SubType>KQGL</SubType>
+    </Compile>
+    <Compile Include="Data\staff\staffData.vb">
+      <SubType>BASE</SubType>
+    </Compile>
+    <Compile Include="Workflow\ESTATE\RENSHI\baseFlowRenshiLiZhi.vb" />
+    <Compile Include="Workflow\ESTATE\RENSHI\baseFlowRenshiLuyong.vb" />
+    <Compile Include="Workflow\ESTATE\RENSHI\baseFlowRenshiRuZhi.vb" />
+    <Compile Include="Workflow\ESTATE\RENSHI\baseFlowRenshiShiXiSheng.vb" />
+    <Compile Include="Workflow\ESTATE\RENSHI\baseFlowRenshiTiaoZheng.vb" />
+    <Compile Include="Workflow\FLOW\baseFlowCreate.vb" />
+    <Compile Include="Workflow\FLOW\baseFlowObject.vb" />
+    <Compile Include="Workflow\KQGL\baseFlowKqglQJD.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gzcjxyhc.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties TDLELEMENTTYPE="System" TDLFILE="" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

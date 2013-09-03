@@ -1,0 +1,896 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<auditpzlog>
+  <xs:schema id="auditpzlog" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="auditpzlog" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="auditpzlogItem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="optime" type="xs:string" minOccurs="0" />
+                <xs:element name="opaddr" type="xs:string" minOccurs="0" />
+                <xs:element name="opmach" type="xs:string" minOccurs="0" />
+                <xs:element name="opuser" type="xs:string" minOccurs="0" />
+                <xs:element name="opnote" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <auditpzlogItem>
+    <optime>2011-04-12 14:33:47</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[客户类型]字典！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-12 14:34:20</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>在[客户类型]字典中增加了[公司广告]！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-12 14:34:37</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>在[客户类型]字典中增加了[网络]！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-12 14:34:48</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>在[客户类型]字典中增加了[内部介绍]！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-12 14:35:03</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>在[客户类型]字典中增加了[本人提交分行]！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-12 14:35:11</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>在[客户类型]字典中增加了[其他]！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-15 08:32:44</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[heshuangfeng]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-15 08:37:31</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[lvjinghua]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-15 10:39:09</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[zhangsanfei]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-15 10:42:05</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[fengyun]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-26 11:12:39</optime>
+    <opaddr>128.168.2.88</opaddr>
+    <opmach>128.168.2.88</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[zhanger]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-26 15:08:28</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[客户类型]字典！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-04-26 16:01:48</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[liudehua]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-06 09:45:28</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[客户类型]字典！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-19 11:54:52</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[fdsf]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-19 14:30:05</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[er]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-19 14:48:23</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[shisan]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-19 15:23:07</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[shisi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-19 15:23:22</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[shier]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-23 14:21:01</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[sa]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-23 17:21:56</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[432432]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-23 17:22:15</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[san]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-23 17:48:35</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[asd113]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-23 17:56:15</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[3]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-05-27 16:05:10</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[天河东分行]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-06-09 08:37:04</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[wenluxi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-06-09 08:37:55</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[wenluxi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-06-09 08:39:44</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[wenluxi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-06-09 08:39:55</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[wenluxi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-06-09 08:40:14</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[wenluxi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-06-09 08:40:33</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[wenluxi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-06 15:09:40</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>增加了[panshaoying]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-06 15:12:57</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[jinzhongnan]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-06 15:13:00</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[jinzhongnan]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-12 08:59:22</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[TEST10]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-12 11:42:34</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>修改了[luzipeng]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-20 15:13:44</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[1232]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-20 17:17:18</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[人事_人事变动类型]字典！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-20 17:18:18</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>在[人事_人事变动类型]字典中增加了[转分行]！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-20 17:18:41</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>在[人事_人事变动类型]字典中增加了[转团队]！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-20 17:18:59</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>在[人事_人事变动类型]字典中增加了[增减直管团队]！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-07-20 17:19:17</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>在[人事_人事变动类型]字典中增加了[增减协管团队]！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-08-17 17:29:32</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>增加了[d]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-08-18 16:00:57</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[名雅苑分行]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-08-18 16:01:00</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[名雅苑分行]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-08-18 16:01:26</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[荟雅苑分行]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-08-22 17:28:55</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[名雅苑分行]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 15:57:25</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>增加了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 15:59:43</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 16:00:19</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 16:01:09</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>增加了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 16:01:13</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 16:01:37</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 16:03:54</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 16:04:08</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>增加了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 16:04:18</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 16:08:46</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-09-24 16:14:01</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:35:34</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[财富工商铺A]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:35:57</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[维多利工商铺A]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:37:07</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[维多利工商铺B]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:37:19</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[维多利工商铺D]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:38:09</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[财富工商铺A]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:42:15</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[保利心语工商铺]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:42:38</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[越秀工商铺]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:43:11</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[新都会工商铺A]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:43:29</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[维多利工商铺F]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:44:06</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[新都会工商铺B]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:48:14</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[中石化工商铺A]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:48:23</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[中石化工商铺B]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:48:43</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[中石化工商铺C]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:48:47</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[中石化工商铺D]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:48:50</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[中石化工商铺E]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:50:14</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[财富工商铺A]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:50:17</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[财富工商铺B]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:50:27</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[财富工商铺C]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:50:40</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[财富工商铺D]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-01 09:50:43</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[财富工商铺E]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-22 10:45:41</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[huangbiyun]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-22 10:45:47</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[huangbiyun]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-29 11:30:19</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[wujiayu]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-29 11:30:29</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[wujiayu]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-11-29 11:46:47</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[yinhao]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 10:57:39</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>增加了[jiangzeguang1]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:04:04</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[中介部]单位！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:04:12</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[合同管理部]单位！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:04:20</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[营销拓展部]单位！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:04:28</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[广州亿诚房地产咨询有限公司]单位！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:04:32</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[集团]单位！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:04:35</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[商业经营管理组]单位！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[liuwei]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[jiangwenbin]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[zhangjiaming]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[luyufeng]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[liusuyao]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[tanfeng]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[huangyongbin]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[tanyingyi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[panshaoying]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[linhuidan]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[wuxinxia]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[lijie]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[audit]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[zhouhui]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[zhangliwei]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[zhangwei]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[yangxianzhi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[data]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[xinxisuo]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:05:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[jiangzeguang]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:20:10</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[产权部]单位资料！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2011-12-12 14:24:03</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>删除了[产权部]单位！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-01-30 14:26:11</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>访问了[wuyi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-01-30 14:26:14</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>更改了[wuyi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-01-30 14:28:45</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>访问了[mojiajie]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-01-30 14:28:47</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>yangxianzhi</opuser>
+    <opnote>更改了[mojiajie]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-02-10 10:22:54</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>增加了[lizhen]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-02-10 10:22:58</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[lizhen]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-02-10 10:23:02</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[lizhen]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-02-10 10:23:05</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[tanyingyi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-02-10 10:23:09</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[tanyingyi]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-02-10 10:23:13</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[wuxinxia]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-02-10 10:23:18</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[wuxinxia]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-02-27 14:36:21</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[test]账户！</opnote>
+  </auditpzlogItem>
+  <auditpzlogItem>
+    <optime>2012-02-27 14:36:30</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>更改了[test]账户！</opnote>
+  </auditpzlogItem>

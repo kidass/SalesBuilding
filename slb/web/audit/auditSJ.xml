@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<auditsjlog>
+  <xs:schema id="auditsjlog" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="auditsjlog" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="auditsjlogItem">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="optime" type="xs:string" minOccurs="0" />
+                <xs:element name="opaddr" type="xs:string" minOccurs="0" />
+                <xs:element name="opmach" type="xs:string" minOccurs="0" />
+                <xs:element name="opuser" type="xs:string" minOccurs="0" />
+                <xs:element name="opnote" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <auditsjlogItem>
+    <optime>2011-12-15 15:15:28</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[一般用户操作审计日志]！</opnote>
+  </auditsjlogItem>
+  <auditsjlogItem>
+    <optime>2012-01-19 10:45:42</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[一般用户操作审计日志]！</opnote>
+  </auditsjlogItem>
+  <auditsjlogItem>
+    <optime>2012-01-19 10:47:22</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[访问审计日志]！</opnote>
+  </auditsjlogItem>
+  <auditsjlogItem>
+    <optime>2012-01-19 10:47:48</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[安全管理员审计日志]！</opnote>
+  </auditsjlogItem>
+  <auditsjlogItem>
+    <optime>2012-01-19 10:47:59</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[配置管理员审计日志]！</opnote>
+  </auditsjlogItem>
+  <auditsjlogItem>
+    <optime>2012-01-19 10:48:08</optime>
+    <opaddr>127.0.0.1</opaddr>
+    <opmach>127.0.0.1</opmach>
+    <opuser>sa</opuser>
+    <opnote>访问了[审计管理员审计日志]！</opnote>
+  </auditsjlogItem>
