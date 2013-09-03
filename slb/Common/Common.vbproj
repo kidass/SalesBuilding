@@ -123,6 +123,7 @@
     <Compile Include="Data\KQGL\kaoqinguanliData.vb">
       <SubType>KQGL</SubType>
     </Compile>
+    <Compile Include="Data\SalesBuildingVisit\SalesBuildingVisitData.vb" />
     <Compile Include="Data\staff\staffData.vb">
       <SubType>BASE</SubType>
     </Compile>
@@ -143,7 +144,7 @@
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties TDLELEMENTTYPE="System" TDLFILE="" />
+      <UserProperties TDLFILE="" TDLELEMENTTYPE="System" />
     </VisualStudio>
   </ProjectExtensions>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
